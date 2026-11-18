@@ -203,7 +203,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Attribution */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-[#FAF4E9]/60 gap-4">
           <p>
-            © {new Date().getFullYear()} YaAllah.in — All rights reserved. &ldquo;A Call to ALLAH!&rdquo;
+            © 2026 YaAllah.in — All rights reserved. &ldquo;A Call to ALLAH!&rdquo;
           </p>
           <div className="flex items-center gap-1 text-[#FAF4E9]/70">
             <span>Built with devotion & peace</span>

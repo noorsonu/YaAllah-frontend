@@ -10,6 +10,13 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  const categories = await api.getCategories();
+  return categories.map((cat) => ({
+    slug: cat.slug,
+  }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const category = await api.getCategoryBySlug(slug);

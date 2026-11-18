@@ -5,6 +5,8 @@ import { api } from '@/lib/api';
 import ArticleCard from '@/components/cards/ArticleCard';
 import type { Metadata } from 'next';
 
+export const dynamic = 'force-dynamic';
+
 interface SearchPageProps {
   searchParams: Promise<{ q?: string }>;
 }
