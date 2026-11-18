@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
+@theme {
+  /* Official YaAllah Color Palette */
+  --color-royal-burgundy: #650D25;
+  --color-deep-burgundy: #50091D;
+  --color-champagne-gold: #D9A441;
+  --color-soft-gold: #E8C78D;
+  --color-warm-cream: #FAF4E9;
+  --color-pure-white: #FFFFFF;
+  --color-deep-brown: #392A25;
+  --color-light-border: #E8D8C0;
+
+  /* Aliases */
+  --color-primary: #650D25;
+  --color-primary-dark: #50091D;
+  --color-gold: #D9A441;
+  --color-gold-light: #E8C78D;
+  --color-bg-ivory: #FAF4E9;
+  --color-text-brown: #392A25;
+
+  /* Fonts */
+  --font-heading: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-body: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
+  --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --royal-burgundy: #650D25;
+  --deep-burgundy: #50091D;
+  --champagne-gold: #D9A441;
+  --soft-gold: #E8C78D;
+  --warm-cream: #FAF4E9;
+  --pure-white: #FFFFFF;
+  --deep-brown: #392A25;
+  --light-border: #E8D8C0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF4E9;
+  color: #392A25;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+}
+
+/* Arabic typography support */
+.font-arabic {
+  font-family: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', serif;
+  direction: rtl;
+  line-height: 1.85;
+}
+
+/* Subtle Islamic geometric pattern background utility */
+.bg-islamic-pattern {
+  background-image: radial-gradient(#D9A441 0.75px, transparent 0.75px), radial-gradient(#D9A441 0.75px, #FAF4E9 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.15;
+}
+
+.bg-islamic-star {
+  background-color: #FAF4E9;
+  background-image: radial-gradient(rgba(217, 164, 65, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom delicate scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF4E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9A441;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #650D25;
 }
