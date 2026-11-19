@@ -149,13 +149,17 @@ export default function HeroSection() {
           <div className="h-[1px] sm:h-[1.5px] flex-1 bg-gradient-to-l from-transparent via-[#E5B246] to-[#E5B246]" />
         </div>
 
-        {/* Main Title: A Call to ALLAH! */}
-        <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white drop-shadow-[0_4px_14px_rgba(0,0,0,0.95)] my-2 sm:my-3">
-          A Call to{' '}
-          <span className="inline-block text-[#FFD466] border-b-2 sm:border-b-4 border-[#D9A441] pb-0.5 sm:pb-1">
-            ALLAH!
+        {/* Main Title: A Call to (Top) & ALLAH! (Bottom) */}
+        <div className="flex flex-col items-center justify-center my-1 sm:my-2">
+          <span className="font-heading text-lg sm:text-2xl md:text-3xl lg:text-4xl text-white font-medium tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
+            A Call to
           </span>
-        </h1>
+          <h1 className="font-heading text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-wider leading-tight mt-0.5 sm:mt-1">
+            <span className="inline-block text-[#FFD466] border-b-2 sm:border-b-4 border-[#D9A441] pb-0.5 sm:pb-1 drop-shadow-[0_4px_18px_rgba(0,0,0,0.95)]">
+              ALLAH!
+            </span>
+          </h1>
+        </div>
 
         {/* Pure Golden Crescent Moon (Clean Hilal) with Golden Dividers */}
         <div className="flex items-center justify-center gap-2 sm:gap-3 w-full max-w-[220px] sm:max-w-md mx-auto py-2 sm:py-3">
