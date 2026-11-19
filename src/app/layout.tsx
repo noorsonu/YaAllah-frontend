@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter, Noto_Naskh_Arabic } from 'next/font/google';
+import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -8,6 +8,13 @@ import MobileBottomNav from '@/components/layout/MobileBottomNav';
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
+  display: 'swap',
+});
+
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  weight: ['600', '700', '800', '900'],
+  variable: '--font-cinzel',
   display: 'swap',
 });
 
@@ -26,11 +33,11 @@ const notoArabic = Noto_Naskh_Arabic({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.yaallah.in'),
-  title: 'YaAllah – A Call to ALLAH! | Islamic Knowledge, Duas & Wazaif',
+  title: 'Ya ALLAH – A Call to ALLAH! | Islamic Knowledge, Duas & Wazaif',
   description:
-    'Welcome to YaAllah.in — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.',
+    'Welcome to yaALLAH.in — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.',
   icons: {
-    icon: '/logo-circle.png',
+    icon: '/logo-v2.png',
   },
 };
 
@@ -42,7 +49,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${inter.variable} ${notoArabic.variable} h-full`}
+      className={`${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />

@@ -27,18 +27,18 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 group inline-flex">
               <div className="relative w-12 h-12 shrink-0">
                 <Image
-                  src="/logo.png"
-                  alt="YaAllah Official Logo"
+                  src="/logo-v2.png"
+                  alt="Ya ALLAH Official Logo"
                   width={48}
                   height={48}
                   className="object-contain w-auto h-full"
                 />
               </div>
               <div>
-                <span className="font-heading text-2xl font-bold tracking-tight text-white block">
-                  YaAllah
+                <span className="font-brand text-2xl font-bold tracking-wide text-white block">
+                  Ya ALLAH
                 </span>
-                <span className="text-xs font-semibold tracking-wider text-[#D9A441] uppercase">
+                <span className="text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase">
                   A Call to ALLAH!
                 </span>
               </div>

@@ -63,8 +63,8 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-11 h-11 sm:w-13 sm:h-13 shrink-0 transition-transform group-hover:scale-105 duration-200">
                 <Image
-                  src="/logo.png"
-                  alt="YaAllah Logo"
+                  src="/logo-v2.png"
+                  alt="Ya ALLAH Official Logo"
                   width={52}
                   height={52}
                   priority
@@ -72,10 +72,10 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[#650D25] leading-none group-hover:text-[#50091D] transition-colors">
-                  YaAllah
+                <span className="font-brand text-xl sm:text-2xl font-bold tracking-wide text-[#650D25] leading-none group-hover:text-[#50091D] transition-colors">
+                  Ya ALLAH
                 </span>
-                <span className="text-[11px] sm:text-xs font-semibold tracking-wider text-[#D9A441] uppercase mt-0.5">
+                <span className="text-[10px] sm:text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase mt-0.5">
                   A Call to ALLAH!
                 </span>
               </div>
