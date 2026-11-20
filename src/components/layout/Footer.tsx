@@ -35,8 +35,8 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <span className="font-logo text-2xl font-bold tracking-wide text-white block">
-                  <span className="font-semibold">ya</span> ALLAH
+                <span className="bbh-bogle-regular font-logo text-2xl sm:text-3xl tracking-wide text-white block">
+                  ya ALLAH
                 </span>
                 <span className="text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase">
                   A Call to ALLAH!

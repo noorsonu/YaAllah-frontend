@@ -19,12 +19,20 @@
   --color-bg-ivory: #FAF4E9;
   --color-text-brown: #392A25;
 
-  /* Fonts: DM Sans for the entire website, Logo font reserved for user's logo */
+  /* Fonts: DM Sans for the entire website, BBH Bogle for logo */
   --font-body: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
   --font-heading: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
   --font-brand: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
-  --font-logo: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-logo: var(--font-bbh-bogle), 'BBH Bogle', sans-serif;
   --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
+}
+
+@font-face {
+  font-family: 'BBH Bogle';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/bbh-bogle.ttf') format('truetype');
 }
 
 :root {
@@ -67,9 +75,11 @@ p, .font-body {
   font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
 }
 
-/* Logo font: reserved for user's upcoming logo font (currently untouched) */
-.font-logo {
-  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+/* Logo font: BBH Bogle regular */
+.bbh-bogle-regular, .font-logo {
+  font-family: 'BBH Bogle', var(--font-bbh-bogle), sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Arabic typography support */

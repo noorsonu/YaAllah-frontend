@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Playfair_Display, Noto_Naskh_Arabic } from 'next/font/google';
+import { DM_Sans, Noto_Naskh_Arabic } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -12,10 +13,10 @@ const dmSans = DM_Sans({
   display: 'swap',
 });
 
-/* 2. Logo font: Playfair Display (retained until user provides custom logo font) */
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
+/* 2. Logo font: BBH Bogle */
+const bbhBogle = localFont({
+  src: '../../public/fonts/bbh-bogle.ttf',
+  variable: '--font-bbh-bogle',
   display: 'swap',
 });
 
@@ -45,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${dmSans.variable} ${playfair.variable} ${notoArabic.variable} h-full`}
+      className={`${dmSans.variable} ${bbhBogle.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />
