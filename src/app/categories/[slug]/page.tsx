@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!category) {
     return {
-      title: 'Category Not Found | YaAllah',
+      title: 'Category Not Found | ya ALLAH',
     };
   }
 
   return {
-    title: `${category.name} Articles & Duas | YaAllah`,
+    title: `${category.name} Articles & Duas | ya ALLAH`,
     description: category.description,
   };
 }

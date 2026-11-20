@@ -6,7 +6,7 @@ import ArticleCard from '@/components/cards/ArticleCard';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Important Wazaif – Tried & Tested Islamic Practices | YaAllah',
+  title: 'Important Wazaif – Tried & Tested Islamic Practices | ya ALLAH',
   description: 'Authentic tested wazaif for marriage, overcoming distress, job success, and family harmony rooted in Sunnah.',
 };
 

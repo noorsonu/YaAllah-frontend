@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.yaallah.in'),
   title: 'ya ALLAH – A Call to ALLAH! | Islamic Knowledge, Duas & Wazaif',
   description:
-    'Welcome to yaALLAH.in — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.',
+    'Welcome to ya ALLAH.in — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.',
   icons: {
     icon: '/logo-v2.png',
   },

@@ -14,7 +14,7 @@ interface SearchPageProps {
 export async function generateMetadata({ searchParams }: SearchPageProps): Promise<Metadata> {
   const { q } = await searchParams;
   return {
-    title: q ? `Search Results for "${q}" | YaAllah` : 'Search Duas & Wazaif | YaAllah',
+    title: q ? `Search Results for "${q}" | ya ALLAH` : 'Search Duas & Wazaif | ya ALLAH',
     description: 'Search authentic Islamic supplications, wazaif, Quranic verses, and downloadable guides.',
   };
 }

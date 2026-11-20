@@ -4,8 +4,8 @@ import { FileText, Home, ChevronRight, AlertTriangle } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions & Disclaimer | YaAllah',
-  description: 'Terms of use, religious content policy, and responsible disclaimer for YaAllah.in.',
+  title: 'Terms & Conditions & Disclaimer | ya ALLAH',
+  description: 'Terms of use, religious content policy, and responsible disclaimer for ya ALLAH.in.',
 };
 
 export default function TermsPage() {
@@ -41,7 +41,7 @@ export default function TermsPage() {
           <div className="p-4 rounded-2xl bg-[#FAF4E9] border border-[#D9A441] flex items-start gap-3 my-4">
             <AlertTriangle className="w-5 h-5 text-[#650D25] shrink-0 mt-0.5" />
             <p className="text-xs text-[#392A25] leading-relaxed">
-              <strong>Crucial Religious & Medical Note:</strong> All supplications, wazaif, and guidance shared on YaAllah are for devotional and educational purposes. Neither YaAllah nor its contributors claim to issue guaranteed medical, legal, or commercial outcomes. For any physical or mental ailment, consult licensed doctors.
+              <strong>Crucial Religious & Medical Note:</strong> All supplications, wazaif, and guidance shared on ya ALLAH are for devotional and educational purposes. Neither ya ALLAH nor its contributors claim to issue guaranteed medical, legal, or commercial outcomes. For any physical or mental ailment, consult licensed doctors.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export default function TermsPage() {
               1. Acceptance of Terms
             </h3>
             <p>
-              By accessing and reading content on YaAllah.in, you acknowledge and agree to respect the sacred nature of Quranic verses, Hadith, and Islamic traditions presented on this site.
+              By accessing and reading content on ya ALLAH.in, you acknowledge and agree to respect the sacred nature of Quranic verses, Hadith, and Islamic traditions presented on this site.
             </p>
 
             <h3 className="font-heading text-lg font-bold text-[#650D25] mt-6 mb-2">

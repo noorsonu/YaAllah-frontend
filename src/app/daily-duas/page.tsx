@@ -6,7 +6,7 @@ import ArticleCard from '@/components/cards/ArticleCard';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Daily Duas – Authentic Morning & Evening Supplications | YaAllah',
+  title: 'Daily Duas – Authentic Morning & Evening Supplications | ya ALLAH',
   description: 'Explore daily Masnoon duas for morning, evening, protection, and peaceful remembrance from verified Hadith sources.',
 };
 

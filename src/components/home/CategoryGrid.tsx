@@ -56,7 +56,7 @@ const CATEGORY_ITEMS: CategoryItem[] = [
     id: 'c-6',
     name: 'About Us',
     href: '/about',
-    description: 'The journey, mission, and editorial ethics behind YaAllah.',
+    description: 'The journey, mission, and editorial ethics behind ya ALLAH.',
     icon: Info,
     count: 'Our Mission',
   },

@@ -31,7 +31,7 @@ export default function CommentsSection({ postTitle, initialCount = 12 }: Commen
       id: 'c3',
       author: 'Shahid Nadeem',
       date: '2 weeks ago',
-      content: 'May Allah bless the team behind YaAllah.in for maintaining authentic Sunnah supplications without commercial distractions.',
+      content: 'May Allah bless the team behind ya ALLAH.in for maintaining authentic Sunnah supplications without commercial distractions.',
     },
   ];
 

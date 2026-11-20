@@ -5,8 +5,8 @@ import { Info, Home, ChevronRight, ShieldCheck, Heart, Sparkles, BookOpen } from
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us – Our History & Mission | YaAllah',
-  description: 'Learn about the journey of YaAllah.in, founded in 2012 as a humble platform dedicated to authentic Islamic supplications, wazaif, and peaceful remembrance.',
+  title: 'About Us – Our History & Mission | ya ALLAH',
+  description: 'Learn about the journey of ya ALLAH.in, founded in 2012 as a humble platform dedicated to authentic Islamic supplications, wazaif, and peaceful remembrance.',
 };
 
 export default function AboutPage() {
@@ -30,7 +30,7 @@ export default function AboutPage() {
             <div className="relative w-20 h-20 shrink-0">
               <Image
                 src="/logo.png"
-                alt="YaAllah Logo"
+                alt="ya ALLAH Logo"
                 width={80}
                 height={80}
                 className="object-contain w-auto h-full"
@@ -51,7 +51,7 @@ export default function AboutPage() {
           </div>
 
           <p className="text-base sm:text-lg text-[#392A25]/90 leading-relaxed">
-            YaAllah.in was initiated in 2012 as an earnest platform to facilitate Muslims around the world with verified Sunnah supplications, daily adhkar, and authentic wazaif for times of distress and life decisions.
+            ya ALLAH.in was initiated in 2012 as an earnest platform to facilitate Muslims around the world with verified Sunnah supplications, daily adhkar, and authentic wazaif for times of distress and life decisions.
           </p>
         </div>
 
@@ -63,14 +63,14 @@ export default function AboutPage() {
               The Genesis & Evolution
             </h2>
             <p className="text-sm sm:text-base text-[#392A25]/90 leading-relaxed">
-              What began over a decade ago as a personal devotional blog has grown into one of the most widely consulted repositories of Islamic Duas and Wazaif. From helping individuals find peace during severe illness to offering guided Istikhara supplications for marriage, YaAllah has remained committed to pure spiritual solace.
+              What began over a decade ago as a personal devotional blog has grown into one of the most widely consulted repositories of Islamic Duas and Wazaif. From helping individuals find peace during severe illness to offering guided Istikhara supplications for marriage, ya ALLAH has remained committed to pure spiritual solace.
             </p>
             <p className="text-sm sm:text-base text-[#392A25]/90 leading-relaxed">
               We redesigned the entire experience from the ground up to ensure modern speed, pristine typography in Arabic and English, and an ad-free, respectful environment for readers on any mobile or desktop screen.
             </p>
           </section>
 
-          {/* Pillars of YaAllah */}
+          {/* Pillars of ya ALLAH */}
           <section className="space-y-4 pt-4 border-t border-[#E8D8C0]">
             <h2 className="font-heading text-2xl font-bold text-[#650D25]">
               Our Editorial Principles

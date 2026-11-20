@@ -234,7 +234,7 @@ export default function Navbar() {
                 href="/about"
                 className="block px-3 py-2.5 rounded-lg text-base font-medium text-[#392A25] hover:bg-[#FAF4E9] hover:text-[#650D25]"
               >
-                About YaAllah
+                About ya ALLAH
               </Link>
               <Link
                 href="/contact"

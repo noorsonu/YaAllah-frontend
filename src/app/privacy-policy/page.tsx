@@ -4,8 +4,8 @@ import { Shield, Home, ChevronRight } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | YaAllah',
-  description: 'Privacy Policy and data protection terms for YaAllah.in readers and community members.',
+  title: 'Privacy Policy | ya ALLAH',
+  description: 'Privacy Policy and data protection terms for ya ALLAH.in readers and community members.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
 
           <div className="prose prose-stone max-w-none text-sm text-[#392A25]/90 space-y-4 leading-relaxed">
             <p>
-              At <strong>YaAllah.in</strong>, we deeply respect the personal privacy of our visitors. This Privacy Policy details how information is handled when you browse, submit comments, or subscribe to educational Islamic content.
+              At <strong>ya ALLAH.in</strong>, we deeply respect the personal privacy of our visitors. This Privacy Policy details how information is handled when you browse, submit comments, or subscribe to educational Islamic content.
             </p>
 
             <h3 className="font-heading text-lg font-bold text-[#650D25] mt-6 mb-2">
@@ -54,14 +54,14 @@ export default function PrivacyPolicyPage() {
               2. Cookies and Analytics
             </h3>
             <p>
-              YaAllah uses standard cookies and anonymous web analytics to track page views and improve website performance across mobile and desktop devices. You can configure your browser to reject cookies without affecting your ability to read supplications.
+              ya ALLAH uses standard cookies and anonymous web analytics to track page views and improve website performance across mobile and desktop devices. You can configure your browser to reject cookies without affecting your ability to read supplications.
             </p>
 
             <h3 className="font-heading text-lg font-bold text-[#650D25] mt-6 mb-2">
               3. Comments and Moderation
             </h3>
             <p>
-              Comments submitted to YaAllah undergo moderation to prevent spam and ensure respect for Islamic values. When you post a comment, your email is never made public; only your submitted display name and reflection are visible.
+              Comments submitted to ya ALLAH undergo moderation to prevent spam and ensure respect for Islamic values. When you post a comment, your email is never made public; only your submitted display name and reflection are visible.
             </p>
 
             <h3 className="font-heading text-lg font-bold text-[#650D25] mt-6 mb-2">

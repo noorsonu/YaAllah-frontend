@@ -28,12 +28,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: 'Article Not Found | YaAllah',
+      title: 'Article Not Found | ya ALLAH',
     };
   }
 
   return {
-    title: `${post.title} | YaAllah`,
+    title: `${post.title} | ya ALLAH`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -159,7 +159,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
                 Authenticity & Respect of Divine Word
               </h4>
               <p className="leading-relaxed text-[#6E5D57]">
-                All verses and supplications on YaAllah are extracted from authentic Quranic chapters and recognized Sunnah compendiums (Bukhari, Muslim, Abu Dawood, Tirmidhi). Readers are advised to maintain physical cleanliness (Taharah) while holding or reciting divine words.
+                All verses and supplications on ya ALLAH are extracted from authentic Quranic chapters and recognized Sunnah compendiums (Bukhari, Muslim, Abu Dawood, Tirmidhi). Readers are advised to maintain physical cleanliness (Taharah) while holding or reciting divine words.
               </p>
             </div>
           </div>

@@ -45,7 +45,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-sm text-[#FAF4E9]/80 leading-relaxed pr-4">
-              Welcome to YaAllah.in — a trusted platform for Daily Duas, Important Wazaif, 
+              Welcome to ya ALLAH.in — a trusted platform for Daily Duas, Important Wazaif, 
               authentic Islamic articles, and a valuable Library of Islamic knowledge founded on Sunnah.
             </p>
 
@@ -165,7 +165,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-[#FAF4E9]/80">
               <li>
                 <Link href="/about" className="hover:text-[#D9A441] transition-colors">
-                  About YaAllah
+                  About ya ALLAH
                 </Link>
               </li>
               <li>
@@ -196,14 +196,14 @@ export default function Footer() {
         <div className="py-6 border-b border-[#D9A441]/20 flex flex-col sm:flex-row items-center gap-3 text-xs text-[#FAF4E9]/70 text-center sm:text-left">
           <Shield className="w-5 h-5 text-[#D9A441] shrink-0" />
           <p>
-            <strong>Disclaimer:</strong> yaALLAH.in provides educational Islamic supplications, Masnoon duas, and traditional wazaif. Supplications are acts of worship and faith, not medical substitutes. For health conditions, always consult licensed healthcare professionals.
+            <strong>Disclaimer:</strong> ya ALLAH.in provides educational Islamic supplications, Masnoon duas, and traditional wazaif. Supplications are acts of worship and faith, not medical substitutes. For health conditions, always consult licensed healthcare professionals.
           </p>
         </div>
 
         {/* Bottom Bar: Copyright & Attribution */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-[#FAF4E9]/60 gap-4">
           <p>
-            © 2026 YaAllah.in — All rights reserved. &ldquo;A Call to ALLAH!&rdquo;
+            © 2026 ya ALLAH.in — All rights reserved. &ldquo;A Call to ALLAH!&rdquo;
           </p>
           <div className="flex items-center gap-1 text-[#FAF4E9]/70">
             <span>Built with devotion & peace</span>

@@ -107,7 +107,7 @@ export default function ContactPage() {
               </div>
 
               <div className="pt-4 border-t border-[#E8D8C0] text-xs text-[#6E5D57] leading-relaxed">
-                <strong>Please note:</strong> YaAllah does not issue personal religious fatwas or promise supernatural cures. Duas are acts of faith between a servant and the Creator.
+                <strong>Please note:</strong> ya ALLAH does not issue personal religious fatwas or promise supernatural cures. Duas are acts of faith between a servant and the Creator.
               </div>
             </div>
           </div>

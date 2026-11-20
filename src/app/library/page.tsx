@@ -5,7 +5,7 @@ import { api } from '@/lib/api';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Islamic Library & Downloadable PDF Resources | YaAllah',
+  title: 'Islamic Library & Downloadable PDF Resources | ya ALLAH',
   description: 'Download verified Islamic ebooks, Daily Masnoon Dua guides, 40 Rabbana charts, and printable Hadith collections for free.',
 };
 

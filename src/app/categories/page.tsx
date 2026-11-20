@@ -5,7 +5,7 @@ import { api } from '@/lib/api';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'All Islamic Categories & Topics | YaAllah',
+  title: 'All Islamic Categories & Topics | ya ALLAH',
   description: 'Browse all Islamic supplications, wazaif, Quranic verses, and educational categories organized by life situations.',
 };
 

@@ -182,11 +182,11 @@ export default function HeroSection() {
           <div className="h-[1px] sm:h-[1.5px] flex-1 bg-gradient-to-l from-transparent via-[#E5B246] to-[#E5B246]" />
         </div>
 
-        {/* Mission Statement Paragraph from Official YaAllah.in */}
+        {/* Mission Statement Paragraph from Official ya ALLAH.in */}
         <p className="text-xs sm:text-base md:text-lg text-[#FAF4E9] font-normal leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] max-w-xl mx-auto px-2">
           Welcome to{' '}
           <span className="font-semibold text-white underline decoration-[#D9A441] decoration-2 underline-offset-4">
-            YaAllah.in
+            ya ALLAH.in
           </span>{' '}
           — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.
         </p>
