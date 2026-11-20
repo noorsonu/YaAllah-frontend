@@ -1,29 +1,25 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel } from 'next/font/google';
+import { DM_Sans, Playfair_Display, Noto_Naskh_Arabic } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import MobileBottomNav from '@/components/layout/MobileBottomNav';
 
+/* 1. Main font for entire website: DM Sans (full variable weight 100-1000) */
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-dm-sans',
+  display: 'swap',
+});
+
+/* 2. Logo font: Playfair Display (retained until user provides custom logo font) */
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
   display: 'swap',
 });
 
-const cinzel = Cinzel({
-  subsets: ['latin'],
-  weight: ['600', '700', '800', '900'],
-  variable: '--font-cinzel',
-  display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
+/* 3. Arabic font */
 const notoArabic = Noto_Naskh_Arabic({
   subsets: ['arabic'],
   weight: ['400', '500', '600', '700'],
@@ -49,7 +45,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
+      className={`${dmSans.variable} ${playfair.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />

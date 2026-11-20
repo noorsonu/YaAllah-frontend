@@ -19,10 +19,11 @@
   --color-bg-ivory: #FAF4E9;
   --color-text-brown: #392A25;
 
-  /* Fonts */
-  --font-brand: var(--font-playfair), 'Playfair Display', Georgia, serif;
-  --font-heading: var(--font-playfair), 'Playfair Display', Georgia, serif;
-  --font-body: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
+  /* Fonts: DM Sans for the entire website, Logo font reserved for user's logo */
+  --font-body: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-heading: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-brand: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-logo: var(--font-playfair), 'Playfair Display', Georgia, serif;
   --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
 }
 
@@ -44,21 +45,31 @@ html {
 body {
   background-color: #FAF4E9;
   color: #392A25;
-  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Headings use Playfair Display */
+/* Entire website headings use DM Sans */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* Paragraphs & body use DM Sans */
+p, .font-body {
+  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
 }
 
 .font-brand {
+  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+}
+
+/* Logo font: reserved for user's upcoming logo font (currently untouched) */
+.font-logo {
   font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
-  letter-spacing: 0.02em;
 }
 
 /* Arabic typography support */
