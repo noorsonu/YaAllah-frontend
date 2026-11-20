@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Noto_Naskh_Arabic } from 'next/font/google';
+import { Rubik, Noto_Naskh_Arabic } from 'next/font/google';
 import localFont from 'next/font/local';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import MobileBottomNav from '@/components/layout/MobileBottomNav';
 
-/* 1. Main font for entire website: DM Sans (full variable weight 100-1000) */
-const dmSans = DM_Sans({
+/* 1. Main font for entire website: Rubik (variable weights 300-900) */
+const rubik = Rubik({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-rubik',
   display: 'swap',
 });
 
@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${dmSans.variable} ${bbhBogle.variable} ${notoArabic.variable} h-full`}
+      className={`${rubik.variable} ${bbhBogle.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />

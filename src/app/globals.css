@@ -19,10 +19,10 @@
   --color-bg-ivory: #FAF4E9;
   --color-text-brown: #392A25;
 
-  /* Fonts: DM Sans for the entire website, BBH Bogle for logo */
-  --font-body: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
-  --font-heading: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
-  --font-brand: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
+  /* Fonts: Rubik for the entire website, BBH Bogle for logo */
+  --font-body: var(--font-rubik), 'Rubik', system-ui, -apple-system, sans-serif;
+  --font-heading: var(--font-rubik), 'Rubik', system-ui, -apple-system, sans-serif;
+  --font-brand: var(--font-rubik), 'Rubik', system-ui, -apple-system, sans-serif;
   --font-logo: var(--font-bbh-bogle), 'BBH Bogle', sans-serif;
   --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
 }
@@ -53,26 +53,26 @@ html {
 body {
   background-color: #FAF4E9;
   color: #392A25;
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-rubik), 'Rubik', system-ui, sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Entire website headings use DM Sans */
+/* Entire website headings use Rubik */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-rubik), 'Rubik', system-ui, sans-serif;
   letter-spacing: -0.01em;
 }
 
-/* Paragraphs & body use DM Sans */
+/* Paragraphs & body use Rubik */
 p, .font-body {
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-rubik), 'Rubik', system-ui, sans-serif;
 }
 
 .font-brand {
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-rubik), 'Rubik', system-ui, sans-serif;
 }
 
 /* Logo font: BBH Bogle regular */
