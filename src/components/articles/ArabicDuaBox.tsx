@@ -63,11 +63,11 @@ export default function ArabicDuaBox({ dua, fontSize = 24 }: ArabicDuaBoxProps) 
         </button>
       </div>
 
-      {/* Arabic Script Block (RTL, Large, Beautifully styled with Amiri Quran font) */}
+      {/* Arabic Script Block (RTL, Large, Beautifully styled) */}
       <div 
         dir="rtl" 
         style={{ fontSize: `${fontSize}px` }}
-        className="font-quran text-[#50091D] font-bold leading-[2.2] sm:leading-[2.5] text-center my-6 py-4 px-2 sm:px-6 tracking-wide select-all"
+        className="font-arabic text-[#50091D] font-medium leading-[2.2] sm:leading-[2.4] text-center my-6 py-4 px-2 sm:px-6 tracking-wide select-all"
       >
         {dua.arabic}
       </div>

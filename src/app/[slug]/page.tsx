@@ -143,10 +143,10 @@ export default async function ArticleDetailPage({ params }: PageProps) {
             <ArabicDuaBox dua={post.arabicDua} />
           )}
 
-          {/* Main Article Content with Lora Islamic Article Typography */}
+          {/* Main Article Content */}
           {post.content && (
             <div
-              className="prose prose-stone max-w-none font-article prose-headings:font-heading prose-headings:text-[#650D25] prose-headings:font-bold prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-3 prose-p:font-article prose-p:text-[#392A25] prose-p:leading-relaxed prose-li:font-article prose-li:text-[#392A25] prose-ul:my-4 prose-li:my-1 prose-strong:text-[#650D25]"
+              className="prose prose-stone max-w-none prose-headings:font-heading prose-headings:text-[#650D25] prose-headings:font-bold prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-[#392A25] prose-p:leading-relaxed prose-li:text-[#392A25] prose-ul:my-4 prose-li:my-1 prose-strong:text-[#650D25]"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           )}

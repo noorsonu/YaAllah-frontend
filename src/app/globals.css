@@ -19,14 +19,11 @@
   --color-bg-ivory: #FAF4E9;
   --color-text-brown: #392A25;
 
-  /* Fonts mapped to User's Specification */
-  --font-heading: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
-  --font-brand: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
-  --font-body: var(--font-dm-sans), 'DM Sans', system-ui, -apple-system, sans-serif;
-  --font-navbar: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
-  --font-article: var(--font-lora), 'Lora', Georgia, serif;
-  --font-quran: var(--font-amiri), 'Amiri', 'Traditional Arabic', serif;
-  --font-arabic: var(--font-noto-arabic), 'Noto Naskh Arabic', 'Amiri', serif;
+  /* Fonts */
+  --font-brand: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-heading: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-body: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
+  --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
 }
 
 :root {
@@ -47,52 +44,26 @@ html {
 body {
   background-color: #FAF4E9;
   color: #392A25;
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
-/* 1. Main Headings: Cormorant Garamond */
+/* Headings use Playfair Display */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
-  letter-spacing: -0.01em;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
 }
 
 .font-brand {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.02em;
 }
 
-/* 2. Navbar: DM Sans */
-nav, .font-navbar {
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
-}
-
-/* 3. Paragraphs & General Body: DM Sans */
-p, .font-body {
-  font-family: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
-}
-
-/* 4. Islamic Articles: Lora */
-.font-article, .prose {
-  font-family: var(--font-lora), 'Lora', Georgia, serif;
-}
-
-.prose p, .prose li {
-  font-family: var(--font-lora), 'Lora', Georgia, serif;
-}
-
-/* 5. Quran / Arabic Duas: Amiri */
-.font-quran, .quran-text {
-  font-family: var(--font-amiri), 'Amiri', 'Traditional Arabic', serif;
-  direction: rtl;
-  line-height: 2.2;
-}
-
-/* 6. Arabic Supporting Text: Noto Naskh Arabic */
+/* Arabic typography support */
 .font-arabic {
-  font-family: var(--font-noto-arabic), 'Noto Naskh Arabic', 'Amiri', serif;
+  font-family: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', serif;
   direction: rtl;
   line-height: 1.85;
 }

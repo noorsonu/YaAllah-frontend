@@ -1,44 +1,33 @@
 import type { Metadata } from 'next';
-import { Cormorant_Garamond, DM_Sans, Lora, Amiri, Noto_Naskh_Arabic } from 'next/font/google';
+import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import MobileBottomNav from '@/components/layout/MobileBottomNav';
 
-/* 1. Main headings: Cormorant Garamond (Variable all weights) */
-const cormorant = Cormorant_Garamond({
+const playfair = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-cormorant',
+  variable: '--font-playfair',
   display: 'swap',
 });
 
-/* 2. Navbar & Paragraphs: DM Sans (Variable all weights) */
-const dmSans = DM_Sans({
+const cinzel = Cinzel({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  weight: ['600', '700', '800', '900'],
+  variable: '--font-cinzel',
   display: 'swap',
 });
 
-/* 3. Islamic articles: Lora (Variable all weights) */
-const lora = Lora({
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-lora',
+  variable: '--font-inter',
   display: 'swap',
 });
 
-/* 4. Quran / Arabic Duas: Amiri */
-const amiri = Amiri({
-  subsets: ['arabic'],
-  weight: ['400', '700'],
-  variable: '--font-amiri',
-  display: 'swap',
-});
-
-/* 5. Arabic supporting text: Noto Naskh Arabic */
 const notoArabic = Noto_Naskh_Arabic({
   subsets: ['arabic'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-noto-arabic',
+  variable: '--font-arabic',
   display: 'swap',
 });
 
@@ -60,7 +49,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${dmSans.variable} ${lora.variable} ${amiri.variable} ${notoArabic.variable} h-full`}
+      className={`${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />
