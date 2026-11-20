@@ -33,7 +33,7 @@ const notoArabic = Noto_Naskh_Arabic({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.yaallah.in'),
-  title: 'Ya ALLAH – A Call to ALLAH! | Islamic Knowledge, Duas & Wazaif',
+  title: 'ya ALLAH – A Call to ALLAH! | Islamic Knowledge, Duas & Wazaif',
   description:
     'Welcome to yaALLAH.in — a trusted platform for Daily Duas, Important Wazaif, Islamic articles and a valuable Library of Islamic knowledge.',
   icons: {

@@ -41,8 +41,8 @@ export default function AboutPage() {
                 <Sparkles className="w-3.5 h-3.5 text-[#D9A441]" />
                 <span>Our Heritage Since 2012</span>
               </div>
-              <h1 className="font-brand text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#650D25] tracking-wide">
-                About Ya ALLAH
+              <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#650D25] tracking-wide">
+                About ya ALLAH
               </h1>
               <p className="text-sm font-semibold tracking-wider text-[#D9A441] uppercase mt-1">
                 A Call to ALLAH!

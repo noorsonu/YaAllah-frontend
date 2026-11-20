@@ -20,7 +20,7 @@
   --color-text-brown: #392A25;
 
   /* Fonts */
-  --font-brand: var(--font-cinzel), 'Cinzel', serif;
+  --font-brand: var(--font-playfair), 'Playfair Display', Georgia, serif;
   --font-heading: var(--font-playfair), 'Playfair Display', Georgia, serif;
   --font-body: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
   --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
@@ -57,8 +57,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .font-brand {
-  font-family: var(--font-cinzel), 'Cinzel', serif;
-  letter-spacing: 0.03em;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.02em;
 }
 
 /* Arabic typography support */

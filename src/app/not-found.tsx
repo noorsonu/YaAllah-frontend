@@ -12,7 +12,7 @@ export default function NotFound() {
         <div className="relative w-16 h-16 mx-auto mb-2">
           <Image
             src="/logo-v2.png"
-            alt="Ya ALLAH Logo"
+            alt="ya ALLAH Logo"
             width={64}
             height={64}
             className="object-contain w-auto h-full"
