@@ -5,26 +5,23 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import MobileBottomNav from '@/components/layout/MobileBottomNav';
 
-/* 1. Main headings: Cormorant Garamond */
+/* 1. Main headings: Cormorant Garamond (Variable all weights) */
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
   variable: '--font-cormorant',
   display: 'swap',
 });
 
-/* 2. Navbar & Paragraphs: DM Sans */
+/* 2. Navbar & Paragraphs: DM Sans (Variable all weights) */
 const dmSans = DM_Sans({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
   variable: '--font-dm-sans',
   display: 'swap',
 });
 
-/* 3. Islamic articles: Lora */
+/* 3. Islamic articles: Lora (Variable all weights) */
 const lora = Lora({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
   variable: '--font-lora',
   display: 'swap',
 });

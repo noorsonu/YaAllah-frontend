@@ -151,10 +151,10 @@ export default function HeroSection() {
 
         {/* Main Title: A Call to (Top) & ALLAH! (Bottom) */}
         <div className="flex flex-col items-center justify-center my-1 sm:my-2">
-          <span className="font-heading text-lg sm:text-2xl md:text-3xl lg:text-4xl text-white font-medium tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
+          <span className="font-heading text-xl sm:text-3xl md:text-4xl text-white font-semibold tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
             A Call to
           </span>
-          <h1 className="font-heading text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-wider leading-tight mt-0.5 sm:mt-1">
+          <h1 className="font-heading text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-wider leading-tight mt-0.5 sm:mt-1">
             <span className="inline-block text-[#FFD466] border-b-2 sm:border-b-4 border-[#D9A441] pb-0.5 sm:pb-1 drop-shadow-[0_4px_18px_rgba(0,0,0,0.95)]">
               ALLAH!
             </span>
