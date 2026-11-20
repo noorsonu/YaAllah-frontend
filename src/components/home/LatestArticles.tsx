@@ -16,14 +16,14 @@ export default function LatestArticles({ articles }: LatestArticlesProps) {
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 sm:mb-12">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#D9A441]">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#B8860B]">
               <BookOpen className="w-3.5 h-3.5" />
               <span>Continuous Knowledge</span>
             </div>
-            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#650D25] tracking-tight">
+            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#50091D] tracking-tight">
               Latest Articles & Daily Guidance
             </h2>
-            <p className="text-sm sm:text-base text-[#6E5D57]">
+            <p className="text-sm sm:text-base text-[#5A4841]">
               Freshly published authentic Sunnah supplications, remedies, and spiritual insights.
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function LatestArticles({ articles }: LatestArticlesProps) {
           <div className="mt-4 sm:mt-0">
             <Link
               href="/categories"
-              className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-[#FAF4E9] border border-[#E8D8C0] text-[#650D25] hover:border-[#D9A441] hover:bg-[#650D25] hover:text-white transition-all shadow-sm group"
+              className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-[#FAF4E9] border border-[#E8D8C0] text-[#50091D] hover:border-[#B8860B] hover:bg-[#50091D] hover:text-white transition-all shadow-sm group"
             >
               <span>View All Articles</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />

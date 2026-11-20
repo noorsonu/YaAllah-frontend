@@ -59,9 +59,9 @@ export default async function ArticleDetailPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-[#6E5D57] mb-6 flex-wrap">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-[#8C7368] mb-6 flex-wrap">
           <Link href="/" className="hover:text-[#650D25] flex items-center gap-1 transition-colors">
-            <Home className="w-3.5 h-3.5 text-[#D9A441]" />
+            <Home className="w-3.5 h-3.5 text-[#B8860B]" />
             <span>Home</span>
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-[#E8D8C0]" />
@@ -69,7 +69,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
             {post.category.name}
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-[#E8D8C0]" />
-          <span className="text-[#650D25] font-semibold truncate max-w-xs sm:max-w-md">
+          <span className="text-[#50091D] font-bold truncate max-w-xs sm:max-w-md">
             {post.title}
           </span>
         </nav>
@@ -78,7 +78,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
         <div className="bg-white rounded-3xl border border-[#E8D8C0] p-6 sm:p-10 shadow-sm mb-8">
           {/* Category & Badge */}
           <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-            <span className="px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#650D25] text-white shadow-sm">
+            <span className="px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#50091D] text-white shadow-sm">
               {post.category.name}
             </span>
 
@@ -87,17 +87,17 @@ export default async function ArticleDetailPage({ params }: PageProps) {
           </div>
 
           {/* Title */}
-          <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#650D25] tracking-tight leading-tight mb-4">
+          <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#50091D] tracking-tight leading-tight mb-4">
             {post.title}
           </h1>
 
           {/* Excerpt */}
-          <p className="text-base sm:text-lg text-[#392A25]/90 leading-relaxed font-normal mb-6 pb-6 border-b border-[#E8D8C0]">
+          <p className="text-base sm:text-lg text-[#3B2C27] leading-relaxed font-normal mb-6 pb-6 border-b border-[#E8D8C0]">
             {post.excerpt}
           </p>
 
           {/* Author & Published Info */}
-          <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-[#6E5D57]">
+          <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-[#8C7368]">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#FAF4E9] border border-[#D9A441] flex items-center justify-center text-[#650D25]">
                 <User className="w-5 h-5 text-[#650D25]" />

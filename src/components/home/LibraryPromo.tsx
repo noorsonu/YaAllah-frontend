@@ -18,16 +18,16 @@ export default function LibraryPromo() {
             
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-5 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#650D25]/10 text-[#650D25]">
-                <Sparkles className="w-3.5 h-3.5 text-[#D9A441]" />
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#50091D]/10 text-[#50091D]">
+                <Sparkles className="w-3.5 h-3.5 text-[#B8860B]" />
                 <span>Verified Downloads & Free PDF Books</span>
               </div>
 
-              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#650D25] tracking-tight leading-tight">
+              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#50091D] tracking-tight leading-tight">
                 Islamic Library
               </h2>
 
-              <p className="text-base sm:text-lg text-[#392A25]/90 max-w-2xl leading-relaxed">
+              <p className="text-base sm:text-lg text-[#3B2C27] max-w-2xl leading-relaxed">
                 Explore articles, guides and downloadable resources for your daily life. 
                 Equip your home with verified Masnoon pocket booklets, 40 Rabbana duas, and printable daily charts.
               </p>

@@ -18,16 +18,16 @@ export default function FeaturedWazaif({ articles }: FeaturedWazaifProps) {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-12">
           <div className="space-y-3">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#FAF4E9] border border-[#D9A441] text-[#650D25]">
-              <Sparkles className="w-3.5 h-3.5 text-[#D9A441]" />
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#FAF4E9] border border-[#B8860B]/40 text-[#50091D]">
+              <Sparkles className="w-3.5 h-3.5 text-[#B8860B]" />
               <span>Verified & Tried Supplications</span>
             </div>
             
-            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#650D25] tracking-tight">
-              Powerful Tried Tested Dua Wazaif List
+            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#50091D] tracking-tight">
+              Powerful Tried & Tested Dua Wazaif
             </h2>
 
-            <p className="text-sm sm:text-base text-[#6E5D57] max-w-2xl">
+            <p className="text-sm sm:text-base text-[#5A4841] max-w-2xl leading-relaxed">
               Authentic spiritual prescriptions formulated with Quranic verses and prophetic traditions for life’s most pressing difficulties.
             </p>
           </div>
@@ -35,10 +35,10 @@ export default function FeaturedWazaif({ articles }: FeaturedWazaifProps) {
           <div className="mt-4 md:mt-0">
             <Link
               href="/wazaif"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#650D25] hover:text-[#50091D] group"
+              className="inline-flex items-center gap-2 text-sm font-bold text-[#650D25] hover:text-[#8C1C30] group transition-colors"
             >
               <span>View Full Wazaif List</span>
-              <ArrowRight className="w-4 h-4 text-[#D9A441] group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-4 h-4 text-[#B8860B] group-hover:translate-x-1.5 transition-transform" />
             </Link>
           </div>
         </div>
