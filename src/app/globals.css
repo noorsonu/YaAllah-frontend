@@ -20,10 +20,9 @@
   --color-text-brown: #392A25;
 
   /* Fonts */
-  --font-brand: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
-  --font-heading: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
-  --font-body: var(--font-jakarta), var(--font-inter), 'Inter', system-ui, sans-serif;
-  --font-serif: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-brand: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-heading: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --font-body: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
   --font-arabic: var(--font-arabic), 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
 }
 
@@ -31,11 +30,10 @@
   --royal-burgundy: #650D25;
   --deep-burgundy: #50091D;
   --champagne-gold: #D9A441;
-  --burnished-gold: #B8860B;
   --soft-gold: #E8C78D;
   --warm-cream: #FAF4E9;
   --pure-white: #FFFFFF;
-  --deep-brown: #221814;
+  --deep-brown: #392A25;
   --light-border: #E8D8C0;
 }
 
@@ -45,26 +43,22 @@ html {
 
 body {
   background-color: #FAF4E9;
-  color: #221814;
-  font-family: var(--font-jakarta), var(--font-inter), system-ui, sans-serif;
+  color: #392A25;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Headings use Plus Jakarta Sans */
+/* Headings use Playfair Display */
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
-  letter-spacing: -0.02em;
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
 }
 
 .font-brand {
-  font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
-}
-
-.font-serif {
   font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.02em;
 }
 
 /* Arabic typography support */

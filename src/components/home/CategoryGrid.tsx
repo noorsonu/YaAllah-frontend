@@ -69,13 +69,13 @@ export default function CategoryGrid() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#B8860B] block mb-2">
+          <span className="text-xs font-semibold uppercase tracking-widest text-[#D9A441] block mb-2">
             Explore Spiritual Guidance
           </span>
-          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#50091D] tracking-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#650D25] tracking-tight">
             Explore by Category
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-[#5A4841] leading-relaxed">
+          <p className="mt-3 text-sm sm:text-base text-[#6E5D57]">
             Find the exact supplication or knowledge you seek through our organized Islamic taxonomy.
           </p>
         </div>
@@ -100,17 +100,17 @@ export default function CategoryGrid() {
 
                 {/* Content */}
                 <div>
-                  <h3 className="font-heading text-sm sm:text-base font-bold text-[#50091D] group-hover:text-[#8C1C30] leading-tight mb-1.5 transition-colors">
+                  <h3 className="font-heading text-sm sm:text-base font-bold text-[#650D25] group-hover:text-[#50091D] leading-tight mb-1.5">
                     {item.name}
                   </h3>
-                  <p className="text-[11px] sm:text-xs text-[#6B5A53] line-clamp-2 leading-relaxed mb-3">
+                  <p className="text-[11px] sm:text-xs text-[#6E5D57] line-clamp-2 leading-relaxed mb-3">
                     {item.description}
                   </p>
                 </div>
 
                 {/* Badge */}
                 <div className="pt-2 border-t border-[#E8D8C0]/50">
-                  <span className="text-[10px] font-bold text-[#B8860B] uppercase tracking-wider block">
+                  <span className="text-[10px] font-semibold text-[#D9A441] uppercase tracking-wider block">
                     {item.count}
                   </span>
                 </div>

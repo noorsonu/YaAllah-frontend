@@ -34,12 +34,11 @@ export default function Footer() {
                   className="object-contain w-auto h-full"
                 />
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="text-2xl sm:text-[28px] font-extrabold tracking-tight text-white leading-none flex items-baseline gap-1">
-                  <span className="font-bold text-[#FFD466] tracking-normal text-xl sm:text-[24px]">ya</span>
-                  <span className="font-black tracking-wider text-white">ALLAH</span>
+              <div>
+                <span className="font-heading text-2xl font-bold tracking-wide text-white block">
+                  <span className="font-semibold">ya</span> ALLAH
                 </span>
-                <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.2em] text-[#E5B246] uppercase mt-1">
+                <span className="text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase">
                   A Call to ALLAH!
                 </span>
               </div>

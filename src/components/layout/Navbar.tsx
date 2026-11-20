@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo Brand with original aspect ratio */}
-            <Link href="/" className="flex items-center gap-3 sm:gap-3.5 group">
+            <Link href="/" className="flex items-center gap-3 group">
               <div className="relative w-11 h-11 sm:w-13 sm:h-13 shrink-0 transition-transform group-hover:scale-105 duration-200">
                 <Image
                   src="/logo-v2.png"
@@ -68,15 +68,14 @@ export default function Navbar() {
                   width={52}
                   height={52}
                   priority
-                  className="object-contain w-auto h-full drop-shadow-[0_2px_6px_rgba(101,13,37,0.2)]"
+                  className="object-contain w-auto h-full"
                 />
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="text-2xl sm:text-[27px] font-extrabold tracking-tight text-[#50091D] leading-none flex items-baseline gap-1 group-hover:text-[#650D25] transition-colors">
-                  <span className="font-bold text-[#8C1C30] tracking-normal text-xl sm:text-[23px]">ya</span>
-                  <span className="font-black tracking-wider text-[#50091D]">ALLAH</span>
+              <div className="flex flex-col">
+                <span className="font-heading text-xl sm:text-2xl font-bold tracking-wide text-[#650D25] leading-none group-hover:text-[#50091D] transition-colors">
+                  <span className="font-semibold">ya</span> ALLAH
                 </span>
-                <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.18em] text-[#B8860B] uppercase mt-1">
+                <span className="text-[10px] sm:text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase mt-0.5">
                   A Call to ALLAH!
                 </span>
               </div>

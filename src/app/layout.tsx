@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel, Plus_Jakarta_Sans } from 'next/font/google';
+import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -8,13 +8,6 @@ import MobileBottomNav from '@/components/layout/MobileBottomNav';
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
-  display: 'swap',
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-jakarta',
   display: 'swap',
 });
 
@@ -56,7 +49,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${plusJakarta.variable} ${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
+      className={`${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />

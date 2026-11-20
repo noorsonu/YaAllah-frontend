@@ -183,7 +183,7 @@ export default function HeroSection() {
         </div>
 
         {/* Mission Statement Paragraph from Official ya ALLAH.in */}
-        <p className="text-xs sm:text-base md:text-lg text-[#FAF4E9] font-medium leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] max-w-xl mx-auto px-2">
+        <p className="text-xs sm:text-base md:text-lg text-[#FAF4E9] font-normal leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] max-w-xl mx-auto px-2">
           Welcome to{' '}
           <span className="font-semibold text-white underline decoration-[#D9A441] decoration-2 underline-offset-4">
             ya ALLAH.in
