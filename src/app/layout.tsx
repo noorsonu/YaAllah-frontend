@@ -1,33 +1,47 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Inter, Noto_Naskh_Arabic, Cinzel } from 'next/font/google';
+import { Cormorant_Garamond, DM_Sans, Lora, Amiri, Noto_Naskh_Arabic } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import MobileBottomNav from '@/components/layout/MobileBottomNav';
 
-const playfair = Playfair_Display({
+/* 1. Main headings: Cormorant Garamond */
+const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
-  variable: '--font-playfair',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-cormorant',
   display: 'swap',
 });
 
-const cinzel = Cinzel({
+/* 2. Navbar & Paragraphs: DM Sans */
+const dmSans = DM_Sans({
   subsets: ['latin'],
-  weight: ['600', '700', '800', '900'],
-  variable: '--font-cinzel',
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-dm-sans',
   display: 'swap',
 });
 
-const inter = Inter({
+/* 3. Islamic articles: Lora */
+const lora = Lora({
   subsets: ['latin'],
-  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-lora',
   display: 'swap',
 });
 
+/* 4. Quran / Arabic Duas: Amiri */
+const amiri = Amiri({
+  subsets: ['arabic'],
+  weight: ['400', '700'],
+  variable: '--font-amiri',
+  display: 'swap',
+});
+
+/* 5. Arabic supporting text: Noto Naskh Arabic */
 const notoArabic = Noto_Naskh_Arabic({
   subsets: ['arabic'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-arabic',
+  variable: '--font-noto-arabic',
   display: 'swap',
 });
 
@@ -49,7 +63,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${cinzel.variable} ${inter.variable} ${notoArabic.variable} h-full`}
+      className={`${cormorant.variable} ${dmSans.variable} ${lora.variable} ${amiri.variable} ${notoArabic.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-[#FAF4E9] text-[#392A25] antialiased selection:bg-[#D9A441]/30 selection:text-[#650D25]">
         <Navbar />

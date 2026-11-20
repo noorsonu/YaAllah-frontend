@@ -72,10 +72,10 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-heading text-xl sm:text-2xl font-bold tracking-wide text-[#650D25] leading-none group-hover:text-[#50091D] transition-colors">
-                  <span className="font-semibold">ya</span> ALLAH
+                <span className="font-heading text-2xl sm:text-3xl font-extrabold tracking-tight text-[#650D25] leading-none group-hover:text-[#50091D] transition-colors">
+                  <span className="font-bold">ya</span> <span className="font-black tracking-wide">ALLAH</span>
                 </span>
-                <span className="text-[10px] sm:text-[11px] font-semibold tracking-widest text-[#D9A441] uppercase mt-0.5">
+                <span className="font-navbar text-[10px] sm:text-[11px] font-bold tracking-widest text-[#D9A441] uppercase mt-0.5">
                   A Call to ALLAH!
                 </span>
               </div>
